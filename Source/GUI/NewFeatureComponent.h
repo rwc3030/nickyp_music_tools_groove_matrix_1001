@@ -7,11 +7,11 @@ class NewFeatureComponent : public Component
 {
 public:
     NewFeatureComponent();
-    void paint(Graphics&) override;
+    void paint(Graphics& g) override;
     void resized() override;
 
 private:
-    TextButton featureButton;
+    TextButton* button;
 
     void handleButtonClick();
 };

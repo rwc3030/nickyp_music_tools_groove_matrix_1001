@@ -1,26 +1,28 @@
 #include "NewFeatureComponent.h"
+#include "MainComponent.h"
 
 NewFeatureComponent::NewFeatureComponent()
 {
-    featureButton.setButtonText("Activate Feature");
-    featureButton.onClick = [this] { handleButtonClick(); };
-    addAndMakeVisible(featureButton);
+    // Initialize UI elements here
+    button = new TextButton("Click Me");
+    button->onClick = [this] { handleButtonClick(); };
+    addAndMakeVisible(button);
 }
 
 void NewFeatureComponent::paint(Graphics& g)
 {
     g.fillAll(Colours::black);
-    g.setColour(Colours::white);
+    g.setColour(Colours::cyan);
     g.drawText("New Feature Component", getLocalBounds(), Justification::centred, true);
 }
 
 void NewFeatureComponent::resized()
 {
-    featureButton.setBounds(10, 10, getWidth() - 20, 40);
+    button->setBounds(10, 10, 100, 30);
 }
 
 void NewFeatureComponent::handleButtonClick()
 {
-    // Implementation of the feature's functionality goes here
-    DBG("Feature activated!");
+    // Handle button click event
+    DBG("Button clicked!");
 }
