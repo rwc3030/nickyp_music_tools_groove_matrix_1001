@@ -3,6 +3,7 @@
 ## Completed Tasks
 - [x] Verify all issues are resolved for the feature in 'next_feature.txt'.
 - [x] Mark the task as complete in this checklist.
+- [x] Task marked as complete in 'next_feature.txt'.
 
 ## Next Task
 - Review 'checklist.md' for the next task.
