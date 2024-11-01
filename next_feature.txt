@@ -15,3 +15,4 @@ Issues to Address:
 - No issues found during the review process.
 - **All issues have been resolved and verified.**
 - **Task marked as complete.**
+- Step 3.4: Review the generated code for logical flow, edge cases, and functional integrity. Record any issues in 'next_feature.txt' under 'Issues to Address' and do not mark the feature as complete.
