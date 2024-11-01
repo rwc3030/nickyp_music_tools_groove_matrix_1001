@@ -12,5 +12,6 @@ Acceptance Criteria:
 Issues to Address:
 - **All issues have been resolved and verified.**
 - **Step 3.10: Review the generated code for logical flow, edge cases, and functional integrity. Record any issues in 'next_feature.txt' under 'Issues to Address' and do not mark the feature as complete.**
+- **Step 4.10: All issues have been addressed and logged.**
 
 Step 1.10: Review 'checklist.md' for the next task. Extract milestone, epic, feature, user story, and acceptance criteria. Log details in 'next_feature.txt' and mark task in progress in 'checklist_progress.md'.
