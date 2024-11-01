@@ -1,42 +1,26 @@
 #include "NewFeatureComponent.h"
-#include <JuceHeader.h>
 
 NewFeatureComponent::NewFeatureComponent()
 {
-    // Set up the UI components
-    setSize(400, 300);
-    addAndMakeVisible(myButton);
-    myButton.setButtonText("Click Me");
-    myButton.onClick = [this] { handleButtonClick(); };
+    featureButton.setButtonText("Activate Feature");
+    featureButton.onClick = [this] { handleButtonClick(); };
+    addAndMakeVisible(featureButton);
 }
 
-void NewFeatureComponent::paint (Graphics& g)
+void NewFeatureComponent::paint(Graphics& g)
 {
-    g.fillAll (Colours::black);
+    g.fillAll(Colours::black);
+    g.setColour(Colours::white);
+    g.drawText("New Feature Component", getLocalBounds(), Justification::centred, true);
 }
 
 void NewFeatureComponent::resized()
 {
-    myButton.setBounds (getLocalBounds().reduced(20));
+    featureButton.setBounds(10, 10, getWidth() - 20, 40);
 }
 
 void NewFeatureComponent::handleButtonClick()
 {
-    // Handle button click event
-    DBG("Button clicked!");
+    // Implementation of the feature's functionality goes here
+    DBG("Feature activated!");
 }
-
-// NewFeatureComponent.h
-#include <JuceHeader.h>
-
-class NewFeatureComponent : public Component
-{
-public:
-    NewFeatureComponent();
-    void paint (Graphics&) override;
-    void resized() override;
-
-private:
-    void handleButtonClick();
-    TextButton myButton;
-};
