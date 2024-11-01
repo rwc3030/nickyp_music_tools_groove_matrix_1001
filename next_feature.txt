@@ -1,0 +1,6 @@
+Milestone: [Define the milestone here]
+Epic: [Define the epic here]
+Feature: [Define the feature here]
+User Story: [Define the user story here]
+Acceptance Criteria: 
+- [Define acceptance criteria here]
