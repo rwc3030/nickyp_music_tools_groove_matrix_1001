@@ -4,3 +4,6 @@ Feature: [Define the feature here]
 User Story: [Define the user story here]
 Acceptance Criteria: 
 - [Define acceptance criteria here]
+
+Issues to Address:
+- [Record any issues found during the review here]
