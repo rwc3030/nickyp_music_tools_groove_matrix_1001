@@ -7,6 +7,7 @@
 - [x] Mark task in progress in 'checklist_progress.md'.
 - **Step 1.6: Review 'checklist.md' for the next task. Extract milestone, epic, feature, user story, and acceptance criteria. Log details in 'next_feature.txt' and mark task in progress in 'checklist_progress.md'.**
 - **Step 1.7: Review 'checklist.md' for the next task. Extract milestone, epic, feature, user story, and acceptance criteria. Log details in 'next_feature.txt' and mark task in progress in 'checklist_progress.md'.**
+- **Step 1.8: Review 'checklist.md' for the next task. Extract milestone, epic, feature, user story, and acceptance criteria. Log details in 'next_feature.txt' and mark task in progress in 'checklist_progress.md'.**
 - **Step 4.7: Address 'Issues to Address' in 'next_feature.txt' by implementing necessary fixes. Log updates in 'checklist_progress.md'. Ensure all issues are resolved before finalizing.**
 
 ## Completed
