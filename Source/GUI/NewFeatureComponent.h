@@ -3,17 +3,12 @@
 
 #include <JuceHeader.h>
 
-class NewFeatureComponent : public Component
+class NewFeatureComponent : public juce::Component
 {
 public:
     NewFeatureComponent();
-    void paint(Graphics& g) override;
+    void paint(juce::Graphics& g) override;
     void resized() override;
-
-private:
-    TextButton* button;
-
-    void handleButtonClick();
 };
 
 #endif // NEWFEATURECOMPONENT_H

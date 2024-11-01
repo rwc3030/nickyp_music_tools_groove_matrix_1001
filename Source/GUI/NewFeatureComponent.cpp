@@ -1,28 +1,19 @@
 #include "NewFeatureComponent.h"
-#include "MainComponent.h"
+#include <JuceHeader.h>
 
 NewFeatureComponent::NewFeatureComponent()
 {
-    // Initialize UI elements here
-    button = new TextButton("Click Me");
-    button->onClick = [this] { handleButtonClick(); };
-    addAndMakeVisible(button);
+    // Constructor implementation
 }
 
-void NewFeatureComponent::paint(Graphics& g)
+void NewFeatureComponent::paint(juce::Graphics& g)
 {
-    g.fillAll(Colours::black);
-    g.setColour(Colours::cyan);
-    g.drawText("New Feature Component", getLocalBounds(), Justification::centred, true);
+    g.fillAll(juce::Colours::lightgrey); // Background color
+    g.setColour(juce::Colours::black);
+    g.drawText("New Feature Component", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void NewFeatureComponent::resized()
 {
-    button->setBounds(10, 10, 100, 30);
-}
-
-void NewFeatureComponent::handleButtonClick()
-{
-    // Handle button click event
-    DBG("Button clicked!");
+    // Resize implementation
 }
