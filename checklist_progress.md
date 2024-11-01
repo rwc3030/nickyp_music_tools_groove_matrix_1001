@@ -11,6 +11,7 @@
 - **Step 4.7: Address 'Issues to Address' in 'next_feature.txt' by implementing necessary fixes. Log updates in 'checklist_progress.md'. Ensure all issues are resolved before finalizing.**
 - **Step 4.8: All issues have been resolved and logged.**
 - **Step 4.9: All issues have been resolved and verified.**
+- **Step 5.9: Verify all issues are resolved for the feature in 'next_feature.txt'. Mark the task as complete in 'checklist.md' and update 'checklist_progress.md' with final notes.**
 
 ## Completed
 - [x] Verified all issues are resolved for the feature in 'next_feature.txt'.
