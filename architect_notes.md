@@ -11,3 +11,6 @@
 
 ## Bugs and Functional Issues
 - Step 92: Identify and resolve bugs affecting completed features. Document any unresolved bugs in 'architect_notes.md' under 'Bugs and Functional Issues'.
+
+## File and Directory Structure Adjustments
+- Step 93: Ensure project files align with structure requirements in 'README.md'. Adjustments have been made to the directory structure to comply with the specified layout, including the creation of necessary folders and files as outlined in the standard project structure.
