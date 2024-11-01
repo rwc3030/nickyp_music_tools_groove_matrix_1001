@@ -1,19 +1,18 @@
 #include "MainComponent.h"
-#include "CustomSlider.h"
-#include <JuceHeader.h>
+#include "NewInteractiveComponent.h"
 
 MainComponent::MainComponent()
 {
-    setSize(600, 400);
-    addAndMakeVisible(customSlider);
+    setSize(800, 600);
+    addAndMakeVisible(newInteractiveComponent);
 }
 
-void MainComponent::paint(Graphics& g)
+void MainComponent::paint(juce::Graphics& g)
 {
-    g.fillAll(Colours::black);
+    g.fillAll(juce::Colours::white);
 }
 
 void MainComponent::resized()
 {
-    customSlider.setBounds(40, 100, getWidth() - 80, 20);
+    newInteractiveComponent.setBounds(getLocalBounds());
 }
