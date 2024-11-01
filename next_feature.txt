@@ -1,7 +1,7 @@
-Milestone: [Define the milestone here]
-Epic: [Define the epic here]
-Feature: [Define the feature here]
-User Story: [Define the user story here]
+Milestone: Define the milestone here
+Epic: Define the epic here
+Feature: Define the feature here
+User Story: Define the user story here
 Acceptance Criteria: 
 - All identified issues have been resolved.
 - All issues for the feature have been verified as resolved.
