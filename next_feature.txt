@@ -14,3 +14,4 @@ Issues to Address:
 - **Task marked as complete.**
 - **Step 3.6: Review the generated code for logical flow, edge cases, and functional integrity.**
 - **All issues have been addressed and resolved.**
+- **Step 1.7: Review 'checklist.md' for the next task. Extract milestone, epic, feature, user story, and acceptance criteria. Log details in 'next_feature.txt' and mark task in progress in 'checklist_progress.md'.**
